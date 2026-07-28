@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sistem Hukum Indonesia — Lembaran Digital</title>
+<meta name="description" content="Website edukasi interaktif tentang Sistem Hukum Indonesia: dasar hukum, hierarki peraturan, sumber hukum, cabang hukum, lembaga penegak hukum, dan sistem peradilan." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,600&family=IBM+Plex+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <div class="stempel stempel--pre" id="preStempel">
+      <div class="stempel__ring">
+        <span class="stempel__symbol">⚖</span>
+        <span class="stempel__text">SAH &amp; MENGIKAT</span>
+      </div>
+    </div>
+    <p class="preloader-text">Menyusun Lembaran Digital<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+  </div>
+</div>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#beranda" class="nav-logo">
+      <span class="nav-logo-icon">⚖</span>
+      <span class="nav-logo-text">Hukum<strong>Indonesia</strong></span>
+    </a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#beranda" class="nav-link" data-section="beranda">Beranda</a></li>
+      <li><a href="#dasar-hukum" class="nav-link" data-section="dasar-hukum">Dasar Hukum</a></li>
+      <li><a href="#hierarki" class="nav-link" data-section="hierarki">Hierarki</a></li>
+      <li><a href="#sumber-hukum" class="nav-link" data-section="sumber-hukum">Sumber Hukum</a></li>
+      <li><a href="#cabang-hukum" class="nav-link" data-section="cabang-hukum">Cabang Hukum</a></li>
+      <li><a href="#lembaga" class="nav-link" data-section="lembaga">Lembaga</a></li>
+      <li><a href="#peradilan" class="nav-link" data-section="peradilan">Peradilan</a></li>
+      <li><a href="#tim" class="nav-link" data-section="tim">Tim Kami</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="beranda">
+  <div class="stempel stempel--hero" id="heroStempel" aria-hidden="true">
+    <div class="stempel__ring">
+      <span class="stempel__symbol">⚖</span>
+      <span class="stempel__text">SAH &amp; MENGIKAT</span>
+    </div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Pasal 1 Ayat (3) UUD 1945</p>
+    <h1 class="hero-title">
+      <span class="line">Sistem Hukum</span>
+      <span class="line line-accent">Indonesia</span>
+    </h1>
+    <p class="hero-subtitle">"Negara Indonesia adalah negara hukum." Jelajahi fondasi, hierarki peraturan, sumber hukum, cabang-cabangnya, hingga lembaga dan lembaga peradilan yang menegakkan keadilan di Indonesia.</p>
+    <div class="hero-actions">
+      <a href="#dasar-hukum" class="btn btn-primary">Mulai Jelajahi <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#tim" class="btn btn-outline">Lihat Tim Kami</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number" data-count="7">0</span>
+        <span class="stat-label">Hierarki Peraturan</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="4">0</span>
+        <span class="stat-label">Lingkungan Peradilan</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="6">0</span>
+        <span class="stat-label">Cabang Hukum Utama</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="1945">0</span>
+        <span class="stat-label">UUD Berlaku Sejak</span>
+      </div>
+    </div>
+  </div>
+  <a href="#dasar-hukum" class="scroll-down" aria-label="Gulir ke bawah"><span></span></a>
+</header>
+
+<main>
+
+  <!-- ============ BAB I — DASAR HUKUM ============ -->
+  <section class="section" id="dasar-hukum">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB I — Dasar Hukum</span>
+        <h2 class="section-title">Fondasi Negara Hukum</h2>
+        <p class="section-desc">Dua pilar utama yang menjadi landasan seluruh sistem hukum di Indonesia.</p>
+      </div>
+      <div class="foundation-grid stagger">
+        <div class="foundation-card reveal">
+          <div class="foundation-icon"><i class="fa-solid fa-star"></i></div>
+          <h3>Pancasila</h3>
+          <p class="foundation-role">Sumber dari Segala Sumber Hukum</p>
+          <p>Pancasila menjadi nilai dasar (grundnorm) yang menjiwai seluruh peraturan perundang-undangan di Indonesia, mulai dari UUD 1945 hingga peraturan daerah.</p>
+          <ul class="foundation-list">
+            <li>Ketuhanan Yang Maha Esa</li>
+            <li>Kemanusiaan yang Adil dan Beradab</li>
+            <li>Persatuan Indonesia</li>
+            <li>Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan</li>
+            <li>Keadilan Sosial bagi Seluruh Rakyat Indonesia</li>
+          </ul>
+        </div>
+        <div class="foundation-card reveal">
+          <div class="foundation-icon"><i class="fa-solid fa-scroll"></i></div>
+          <h3>UUD Negara RI 1945</h3>
+          <p class="foundation-role">Konstitusi Tertinggi</p>
+          <p>Undang-Undang Dasar 1945 merupakan hukum dasar tertulis yang menjadi acuan tertinggi bagi pembentukan seluruh peraturan perundang-undangan di bawahnya.</p>
+          <blockquote>&ldquo;Negara Indonesia adalah negara hukum.&rdquo;<span>— Pasal 1 Ayat (3)</span></blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BAB II — HIERARKI ============ -->
+  <section class="section section-alt" id="hierarki">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB II — Hierarki Peraturan</span>
+        <h2 class="section-title">Hierarki Peraturan Perundang-undangan</h2>
+        <p class="section-desc">Berdasarkan UU No. 12 Tahun 2011 jo. UU No. 13 Tahun 2022, susunan peraturan di Indonesia berjenjang dari yang tertinggi hingga terendah — peraturan yang lebih rendah tidak boleh bertentangan dengan yang lebih tinggi.</p>
+      </div>
+      <div class="hierarchy stagger" id="hierarchy">
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">1</span>
+          <div class="hierarchy-bar" style="--w:100%">
+            <strong>UUD Negara RI Tahun 1945</strong>
+            <p>Konstitusi &amp; hukum dasar tertinggi negara</p>
+          </div>
+        </div>
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">2</span>
+          <div class="hierarchy-bar" style="--w:88%">
+            <strong>Ketetapan MPR (TAP MPR)</strong>
+            <p>Putusan Majelis Permusyawaratan Rakyat</p>
+          </div>
+        </div>
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">3</span>
+          <div class="hierarchy-bar" style="--w:76%">
+            <strong>Undang-Undang / Perppu</strong>
+            <p>UU dibuat DPR bersama Presiden; Perppu ditetapkan Presiden dalam keadaan mendesak</p>
+          </div>
+        </div>
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">4</span>
+          <div class="hierarchy-bar" style="--w:64%">
+            <strong>Peraturan Pemerintah (PP)</strong>
+            <p>Ditetapkan Presiden untuk menjalankan Undang-Undang</p>
+          </div>
+        </div>
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">5</span>
+          <div class="hierarchy-bar" style="--w:52%">
+            <strong>Peraturan Presiden (Perpres)</strong>
+          <p>Ditetapkan Presiden untuk melaksanakan PP atau kebijakan</p>
+          </div>
+        </div>
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">6</span>
+          <div class="hierarchy-bar" style="--w:40%">
+            <strong>Peraturan Daerah Provinsi</strong>
+            <p>Dibuat DPRD Provinsi bersama Gubernur</p>
+          </div>
+        </div>
+        <div class="hierarchy-step reveal">
+          <span class="hierarchy-number">7</span>
+          <div class="hierarchy-bar" style="--w:28%">
+            <strong>Perda Kabupaten/Kota</strong>
+            <p>Dibuat DPRD Kabupaten/Kota bersama Bupati/Wali Kota</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BAB III — SUMBER HUKUM ============ -->
+  <section class="section" id="sumber-hukum">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB III — Sumber Hukum</span>
+        <h2 class="section-title">Sumber Hukum Formil</h2>
+        <p class="section-desc">Tempat atau asal ditemukannya suatu aturan hukum yang berlaku di masyarakat.</p>
+      </div>
+      <div class="source-grid stagger">
+        <div class="source-card reveal">
+          <span class="source-index">01</span>
+          <i class="fa-solid fa-gavel"></i>
+          <h3>Undang-Undang</h3>
+          <p>Peraturan tertulis yang dibentuk oleh lembaga negara berwenang dan mengikat secara umum.</p>
+        </div>
+        <div class="source-card reveal">
+          <span class="source-index">02</span>
+          <i class="fa-solid fa-people-group"></i>
+          <h3>Kebiasaan</h3>
+          <p>Perbuatan yang diulang-ulang dalam masyarakat hingga diyakini dan ditaati sebagai hukum.</p>
+        </div>
+        <div class="source-card reveal">
+          <span class="source-index">03</span>
+          <i class="fa-solid fa-landmark"></i>
+          <h3>Yurisprudensi</h3>
+          <p>Putusan hakim terdahulu yang dijadikan acuan dalam memutus perkara serupa.</p>
+        </div>
+        <div class="source-card reveal">
+          <span class="source-index">04</span>
+          <i class="fa-solid fa-handshake"></i>
+          <h3>Traktat</h3>
+          <p>Perjanjian antarnegara yang mengikat pihak-pihak yang menyepakatinya.</p>
+        </div>
+        <div class="source-card reveal">
+          <span class="source-index">05</span>
+          <i class="fa-solid fa-book-open"></i>
+          <h3>Doktrin</h3>
+          <p>Pendapat para ahli hukum yang berpengaruh dalam pembentukan &amp; penafsiran hukum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BAB IV — CABANG HUKUM ============ -->
+  <section class="section section-alt" id="cabang-hukum">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB IV — Cabang Hukum</span>
+        <h2 class="section-title">Cabang-Cabang Hukum</h2>
+        <p class="section-desc">Hukum di Indonesia terbagi menjadi beberapa cabang sesuai bidang &amp; fungsinya masing-masing.</p>
+      </div>
+      <div class="branch-grid stagger">
+        <div class="branch-card reveal">
+          <div class="branch-icon"><i class="fa-solid fa-handcuffs"></i></div>
+          <h3>Hukum Pidana</h3>
+          <p>Mengatur perbuatan yang dilarang beserta ancaman sanksinya, sebagaimana diatur dalam Kitab Undang-Undang Hukum Pidana (KUHP).</p>
+        </div>
+        <div class="branch-card reveal">
+          <div class="branch-icon"><i class="fa-solid fa-file-contract"></i></div>
+          <h3>Hukum Perdata</h3>
+          <p>Mengatur hubungan antarindividu: perjanjian, keluarga, waris, dan kebendaan, dalam KUHPerdata.</p>
+        </div>
+        <div class="branch-card reveal">
+          <div class="branch-icon"><i class="fa-solid fa-building-columns"></i></div>
+          <h3>Hukum Tata Negara</h3>
+          <p>Mengatur struktur, kekuasaan, dan hubungan antarlembaga negara.</p>
+        </div>
+        <div class="branch-card reveal">
+          <div class="branch-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+          <h3>Hukum Administrasi Negara</h3>
+          <p>Mengatur tindakan aparatur pemerintah dalam menjalankan roda pemerintahan.</p>
+        </div>
+        <div class="branch-card reveal">
+          <div class="branch-icon"><i class="fa-solid fa-earth-asia"></i></div>
+          <h3>Hukum Internasional</h3>
+          <p>Mengatur hubungan antarnegara &amp; subjek hukum internasional lainnya.</p>
+        </div>
+        <div class="branch-card reveal">
+          <div class="branch-icon"><i class="fa-solid fa-people-roof"></i></div>
+          <h3>Hukum Adat</h3>
+          <p>Hukum tidak tertulis yang tumbuh &amp; berlaku dalam masyarakat adat setempat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BAB V — LEMBAGA PENEGAK HUKUM ============ -->
+  <section class="section" id="lembaga">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB V — Lembaga Penegak Hukum</span>
+        <h2 class="section-title">Lembaga Penegak Hukum</h2>
+        <p class="section-desc">Institusi-institusi yang menjaga tegaknya hukum di Indonesia.</p>
+      </div>
+      <div class="agency-grid stagger">
+        <div class="agency-card reveal">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>Kepolisian RI</h3>
+          <p>Menjaga keamanan, ketertiban, &amp; melakukan penyelidikan-penyidikan.</p>
+        </div>
+        <div class="agency-card reveal">
+          <i class="fa-solid fa-scale-balanced"></i>
+          <h3>Kejaksaan</h3>
+          <p>Melakukan penuntutan &amp; mengeksekusi putusan pengadilan.</p>
+        </div>
+        <div class="agency-card reveal">
+          <i class="fa-solid fa-gavel"></i>
+          <h3>Pengadilan</h3>
+          <p>Kekuasaan kehakiman yang merdeka untuk memeriksa &amp; memutus perkara.</p>
+        </div>
+        <div class="agency-card reveal">
+          <i class="fa-solid fa-magnifying-glass-dollar"></i>
+          <h3>KPK</h3>
+          <p>Lembaga independen pemberantas tindak pidana korupsi.</p>
+        </div>
+        <div class="agency-card reveal">
+          <i class="fa-solid fa-user-tie"></i>
+          <h3>Advokat</h3>
+          <p>Memberikan jasa hukum &amp; pembelaan bagi masyarakat pencari keadilan.</p>
+        </div>
+        <div class="agency-card reveal">
+          <i class="fa-solid fa-users-viewfinder"></i>
+          <h3>Komisi Yudisial</h3>
+          <p>Mengawasi perilaku &amp; menjaga kehormatan hakim.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BAB VI — SISTEM PERADILAN ============ -->
+  <section class="section section-alt" id="peradilan">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB VI — Sistem Peradilan</span>
+        <h2 class="section-title">Sistem Peradilan Indonesia</h2>
+        <p class="section-desc">Kekuasaan kehakiman dilaksanakan oleh Mahkamah Agung beserta empat lingkungan peradilan di bawahnya, dan oleh Mahkamah Konstitusi.</p>
+      </div>
+      <div class="apex-courts stagger">
+        <div class="apex-card reveal">
+          <i class="fa-solid fa-building-shield"></i>
+          <h3>Mahkamah Agung (MA)</h3>
+          <p>Pengadilan negara tertinggi &amp; pemegang kewenangan kasasi atas seluruh lingkungan peradilan.</p>
+        </div>
+        <div class="apex-card reveal">
+          <i class="fa-solid fa-book-bookmark"></i>
+          <h3>Mahkamah Konstitusi (MK)</h3>
+          <p>Menguji UU terhadap UUD, memutus sengketa kewenangan lembaga negara &amp; perselisihan hasil pemilu.</p>
+        </div>
+      </div>
+      <div class="tabs reveal">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="umum">Peradilan Umum</button>
+          <button class="tab-btn" data-tab="agama">Peradilan Agama</button>
+          <button class="tab-btn" data-tab="militer">Peradilan Militer</button>
+          <button class="tab-btn" data-tab="tun">PTUN</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel active" id="tab-umum">
+            <h3>Peradilan Umum</h3>
+            <p>Menangani perkara pidana &amp; perdata bagi masyarakat umum melalui Pengadilan Negeri &amp; Pengadilan Tinggi.</p>
+          </div>
+          <div class="tab-panel" id="tab-agama">
+            <h3>Peradilan Agama</h3>
+            <p>Menangani perkara tertentu bagi warga negara beragama Islam, seperti nikah, waris, wakaf, dan ekonomi syariah.</p>
+          </div>
+          <div class="tab-panel" id="tab-militer">
+            <h3>Peradilan Militer</h3>
+            <p>Menangani perkara pidana yang dilakukan oleh anggota TNI (Tentara Nasional Indonesia).</p>
+          </div>
+          <div class="tab-panel" id="tab-tun">
+            <h3>Peradilan Tata Usaha Negara</h3>
+            <p>Menangani sengketa keputusan &amp; tindakan pejabat atau badan pemerintahan (TUN) dengan warga negara.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BAB VII — TIM KAMI ============ -->
+  <section class="section" id="tim">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="tag-mark"></i>BAB VII — Tim Penyusun</span>
+        <h2 class="section-title">Tim Kami</h2>
+        <p class="section-desc">Website ini disusun sebagai tugas kelompok mengenai Sistem Hukum Indonesia.</p>
+      </div>
+      <div class="team-grid stagger">
+        <div class="team-card reveal">
+          <div class="team-avatar">AA</div>
+          <h3>Arya Ap</h3>
+          <span>Anggota Kelompok</span>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-avatar">AN</div>
+          <h3>Andika</h3>
+          <span>Anggota Kelompok</span>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-avatar">EL</div>
+          <h3>Elsan</h3>
+          <span>Anggota Kelompok</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="stempel stempel--footer" id="footerStempel" aria-hidden="true">
+      <div class="stempel__ring">
+        <span class="stempel__symbol">⚖</span>
+        <span class="stempel__text">SAH &amp; MENGIKAT</span>
+      </div>
+    </div>
+    <p class="footer-lead">Dokumen digital ini disusun oleh kelompok:</p>
+    <p class="footer-names">Arya Ap &middot; Andika &middot; Elsan</p>
+    <p class="footer-copy">&copy; <span id="year"></span> Kelompok Sistem Hukum Indonesia. Dibuat untuk tujuan edukasi.</p>
+    <p class="footer-credit">Link dibuat oleh <strong>Arya Aprillio</strong></p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
